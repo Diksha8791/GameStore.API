@@ -2,28 +2,28 @@
 GET http://localhost:5110/games
 
 ###
-GET http://localhost:5110/games/4
+GET http://localhost:5110/games/3
 
 ###
 POST http://localhost:5110/games
 Content-Type: application/json
 
 {
-    "name": "Minecraft",
-    "genre": "Kinds and Family",
-    "price": 19.99,
-    "releaseDate": "2011-11-18"
+    "name": "Street Fighter II",
+    "genreId": 4,
+    "price": 9.99,
+    "releaseDate": "1991-02-01"
 }
 
 ###
-PUT http://localhost:5110/games/5
+PUT http://localhost:5110/games/4
 Content-Type: application/json
 
 {
-  "name": "Street Fighter II",
-  "genre": "Fighting",
-  "price": 10.99,
-  "releaseDate": "1992-07-15"
+  "name": "Final Fanatasy XIV",
+  "genreId": 2,
+  "price": 49.50,
+  "releaseDate": "2010-09-30"
 }
 
 ###

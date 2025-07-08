@@ -1,4 +1,4 @@
 namespace GameStore.API.DTOs;
 
-public record class GameDTO(int Id, string Name, string Genre, decimal Price, DateOnly ReleaseDate);
+public record class GameSummaryDTO(int Id, string Name, string Genre, decimal Price, DateOnly ReleaseDate);
 
